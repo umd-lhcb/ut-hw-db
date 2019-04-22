@@ -10,3 +10,46 @@
   3.3: 3.300
   current_draw: null
   checksum: null
+
+- sn: 7
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 183
+      - 175
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: 0.09
+  5.5: 5.500
+  checksum: AE47
+
+
+- sn: 5
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - null
+      - null
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: null
+  5.5: null
+  checksum: null
+
+
+- sn: 4
+  status: good
+  inspector:
+      - jorge
+      - phoebe
+      - rohan
+  gnd_chassis:
+      - null
+      - null
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: null
+  5.5: null
+  checksum: null
