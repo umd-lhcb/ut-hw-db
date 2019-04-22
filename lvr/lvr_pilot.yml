@@ -1,0 +1,5 @@
+- sn: 6
+  status: good
+  inspector:
+      - jorge
+      - yipeng
