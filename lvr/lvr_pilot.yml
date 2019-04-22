@@ -1,4 +1,5 @@
 - sn: 6
+  type: 1.225
   status: good
   inspector:
       - jorge
@@ -9,4 +10,4 @@
   1.5: 1.500
   3.3: 3.300
   current_draw: null
-  checksum: null
+  checksum: ae47
