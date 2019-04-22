@@ -3,3 +3,10 @@
   inspector:
       - jorge
       - yipeng
+  gnd_chassis:
+      - 190
+      - 166
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: null
+  checksum: null
