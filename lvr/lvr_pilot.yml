@@ -53,3 +53,33 @@
   current_draw: null
   5.5: null
   checksum: null
+
+- sn: 4
+  status: good
+  inspector:
+      - jorge
+      - phoebe
+      - rohan
+  gnd_chassis:
+      - null
+      - null
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: null
+  5.5: null
+  checksum: null
+
+- sn: 3
+  status: bad isolation
+  inspector:
+      - jorge
+      - phoebe
+      - rohan
+  gnd_chassis:
+      - null
+      - null
+  1.5: null
+  3.3: null
+  current_draw: null
+  5.5: null
+  checksum: null
