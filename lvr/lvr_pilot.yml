@@ -1,3 +1,31 @@
+ - sn: 9
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 167.9
+      - 156.0
+  1.5: 1.500
+  3.3: 3.300
+  5.5: 5.500
+  current_draw: 0.09
+  checksum: ae47
+  
+- sn: 8
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 157.3
+      - 145.1
+  1.5: 1.500
+  3.3: 3.300
+  5.5: 5.500
+  current_draw: 0.09
+  checksum: ae47
+
+
+
 - sn: 6
   status: good
   inspector:
@@ -19,7 +47,7 @@
       - 183
       - 175
   1.5: 1.500
-  3.3: 3.300
+  3.3: 3.301
   current_draw: 0.09
   5.5: 5.500
   checksum: AE47
