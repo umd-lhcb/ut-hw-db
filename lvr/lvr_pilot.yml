@@ -1,4 +1,36 @@
- - sn: 10
+- sn: 12
+  status: good
+  inspector:
+      - yipeng
+  gnd_chassis:
+      - 170.6
+      - 155.6
+  1v5: 1.501
+  3v3: 3.301
+  5v5: 5.502
+  current_draw: 0.09
+  checksum: ae47
+  v_ch4_1: 1.483
+  v_ch8_5: 1.483
+  all_chs_alive: yes
+
+- sn: 11
+  status: good
+  inspector:
+      - yipeng
+  gnd_chassis:
+      - 165.1
+      - 157.3
+  1v5: 1.500
+  3v3: 3.300
+  5v5: 5.500
+  current_draw: 0.09
+  checksum: ae47
+  v_ch4_1: 1.484
+  v_ch8_5: 1.482
+  all_chs_alive: yes
+
+- sn: 10
   status: bad
   note: cannot adjust 1.5 rail to desired value
   inspector:
@@ -16,8 +48,8 @@
   gnd_chassis:
       - 190
       - 166
-  1.5: 1.500
-  3.3: 3.300
-  5.5: 5.500
+  1v5: 1.500
+  3v3: 3.300
+  5v5: 5.500
   current_draw: null
   checksum: ae47
