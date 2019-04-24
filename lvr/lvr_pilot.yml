@@ -1,3 +1,12 @@
+ - sn: 10
+  status: bad
+  note: cannot adjust 1.5 rail to desired value
+  inspector:
+      - yipeng
+  gnd_chassis:
+      - 160.7
+      - 170.1
+
 - sn: 6
   type: 1.225
   status: good
@@ -9,5 +18,6 @@
       - 166
   1.5: 1.500
   3.3: 3.300
+  5.5: 5.500
   current_draw: null
   checksum: ae47
