@@ -1,5 +1,21 @@
-- sn: 14
+- sn: 15
   status: good
+  inspector:
+      - Jorge
+  gnd_chassis:
+      - 171.5
+      - 186.5
+  1v5: 1.500
+  3v3: 3.300
+  5v5: 5.499
+  current_draw: 0.12
+  checksum: ae47
+  v_ch4_1: 1.483
+  v_ch8_5: 1.483
+  all_chs_alive: yes
+
+- sn: 14
+  status: bad
   inspector:
       - Jorge
   gnd_chassis:
