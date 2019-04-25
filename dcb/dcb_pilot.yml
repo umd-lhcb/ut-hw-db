@@ -1,0 +1,14 @@
+- sn: wvez6-008
+  status: good
+  inspector:
+      - yipeng
+      - ben
+      - nitzan
+  opt_mezz:
+      - wvez7-017
+      - wvez7-014
+      - wvez7-025
+      - wvez7-018
+  elinks:
+  with_mech_comp: true
+  location: maryland
