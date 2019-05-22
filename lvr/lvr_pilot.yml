@@ -1,3 +1,79 @@
+- sn: 15
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 171.5
+      - 186.5
+  1v5: 1.500
+  3v3: 3.300
+  5v5: 5.499
+  current_draw: 0.12
+  checksum: ae47
+  v_ch4_1: 1.483
+  v_ch8_5: 1.483
+  all_chs_alive: yes
+
+- sn: 14
+  status: good
+  inspector:
+      - jorge
+      - yipeng
+  gnd_chassis:
+      - 173.8
+      - 170.5
+  1v5: 1.500
+  3v3: 3.300
+  5v5: 5.499
+  current_draw: 0.09
+  checksum: ae47
+  v_ch4_1: 1.483
+  v_ch8_5: 1.483
+  all_chs_alive: yes
+  note: channel 4 goes up to 5.5 V when shorted, measuring with scope
+
+- sn: 13
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 170.5
+      - 163.8
+  1v5: 1.500
+  3v3: 3.300
+  5v5: 5.499
+  current_draw: 0.09
+  checksum: ae47
+  v_ch4_1: 1.483
+  v_ch8_5: 1.483
+  all_chs_alive: yes
+
+- sn: 9
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 167.9
+      - 156.0
+  1.5: 1.500
+  3.3: 3.300
+  5.5: 5.500
+  current_draw: 0.09
+  checksum: ae47
+
+- sn: 8
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 157.3
+      - 145.1
+  1.5: 1.500
+  3.3: 3.300
+  5.5: 5.500
+  current_draw: 0.09
+  checksum: ae47
+
 - sn: 6
   type: 1.225
   status: good
@@ -10,4 +86,60 @@
   1.5: 1.500
   3.3: 3.300
   current_draw: null
+  checksum: null
+
+- sn: 7
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - 183
+      - 175
+  1.5: 1.500
+  3.3: 3.301
+  current_draw: 0.09
+  5.5: 5.500
   checksum: ae47
+
+- sn: 5
+  status: good
+  inspector:
+      - jorge
+  gnd_chassis:
+      - null
+      - null
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: null
+  5.5: null
+  checksum: null
+
+- sn: 4
+  status: good
+  inspector:
+      - jorge
+      - phoebe
+      - rohan
+  gnd_chassis:
+      - null
+      - null
+  1.5: 1.500
+  3.3: 3.300
+  current_draw: null
+  5.5: null
+  checksum: null
+
+- sn: 3
+  status: bad isolation
+  inspector:
+      - jorge
+      - phoebe
+      - rohan
+  gnd_chassis:
+      - null
+      - null
+  1.5: null
+  3.3: null
+  current_draw: null
+  5.5: null
+  checksum: null
