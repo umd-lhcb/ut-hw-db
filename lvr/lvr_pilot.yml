@@ -12,7 +12,6 @@
   checksum: ae47
   v_ch4_1: 1.483
   v_ch8_5: 1.483
-  all_chs_alive: true
 
 - sn: 11
   status: good
@@ -28,7 +27,6 @@
   checksum: ae47
   v_ch4_1: 1.484
   v_ch8_5: 1.482
-  all_chs_alive: true
 
 - sn: 10
   status: bad
