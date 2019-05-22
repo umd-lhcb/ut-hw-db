@@ -75,6 +75,7 @@
   checksum: ae47
 
 - sn: 6
+  type: 1.225
   status: good
   inspector:
       - jorge
@@ -98,7 +99,7 @@
   3.3: 3.301
   current_draw: 0.09
   5.5: 5.500
-  checksum: AE47
+  checksum: ae47
 
 - sn: 5
   status: good
