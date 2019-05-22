@@ -1,7 +1,7 @@
 - sn: 15
   status: good
   inspector:
-      - Jorge
+      - jorge
   gnd_chassis:
       - 171.5
       - 186.5
@@ -15,9 +15,10 @@
   all_chs_alive: yes
 
 - sn: 14
-  status: bad
+  status: good
   inspector:
-      - Jorge
+      - jorge
+      - yipeng
   gnd_chassis:
       - 173.8
       - 170.5
@@ -28,13 +29,13 @@
   checksum: ae47
   v_ch4_1: 1.483
   v_ch8_5: 1.483
-  all_chs_alive: no
-  note: channel 4 DC3/DC4 do not act as expected. when shorted, they jump to ~3.5V and periodically pulse to 5.5V, where normally we would expect a constant 5.5V.
+  all_chs_alive: yes
+  note: channel 4 goes up to 5.5 V when shorted, measuring with scope
 
 - sn: 13
   status: good
   inspector:
-      - Jorge
+      - jorge
   gnd_chassis:
       - 170.5
       - 163.8
@@ -46,8 +47,8 @@
   v_ch4_1: 1.483
   v_ch8_5: 1.483
   all_chs_alive: yes
-  
-  
+
+
 - sn: 9
   status: good
   inspector:
@@ -60,7 +61,7 @@
   5.5: 5.500
   current_draw: 0.09
   checksum: ae47
-  
+
 - sn: 8
   status: good
   inspector:
