@@ -48,7 +48,6 @@
   v_ch8_5: 1.483
   all_chs_alive: yes
 
-
 - sn: 9
   status: good
   inspector:
@@ -74,8 +73,6 @@
   5.5: 5.500
   current_draw: 0.09
   checksum: ae47
-
-
 
 - sn: 6
   status: good
@@ -103,27 +100,10 @@
   5.5: 5.500
   checksum: AE47
 
-
 - sn: 5
   status: good
   inspector:
       - jorge
-  gnd_chassis:
-      - null
-      - null
-  1.5: 1.500
-  3.3: 3.300
-  current_draw: null
-  5.5: null
-  checksum: null
-
-
-- sn: 4
-  status: good
-  inspector:
-      - jorge
-      - phoebe
-      - rohan
   gnd_chassis:
       - null
       - null
