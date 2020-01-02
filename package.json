@@ -1,0 +1,18 @@
+{
+  "name": "ut-hw-db",
+  "version": "0.1.0",
+  "description": "Database in plain text to track the UT electronic boards assembly and QA progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umd-lhcb/ut-hw-db.git"
+  },
+  "author": "Yipeng Sun",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "@vue/cli": "^4.1.2"
+  }
+}
