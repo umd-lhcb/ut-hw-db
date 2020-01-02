@@ -1,18 +1,27 @@
 {
   "name": "ut-hw-db",
   "version": "0.1.0",
-  "description": "Database in plain text to track the UT electronic boards assembly and QA progress",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/umd-lhcb/ut-hw-db.git"
-  },
-  "author": "Yipeng Sun",
-  "license": "BSD-2-Clause",
   "dependencies": {
-    "@vue/cli": "^4.1.2"
+    "core-js": "^3.4.4",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-typescript": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "typescript": "~3.5.3",
+    "vue-template-compiler": "^2.6.10"
   }
 }
